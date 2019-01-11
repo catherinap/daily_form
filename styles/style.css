@@ -1,0 +1,95 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #ffffff;
+  color: #7a7b7f;
+  margin: 0;
+  font-size: 13px;
+  padding-top: 60px;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 800px;
+  min-height: 600px;
+  margin: 0 auto;
+  background: url("../images/main_bg.png") no-repeat 0 0;
+  padding: 60px 0;
+}
+
+.form_block {
+  overflow: hidden;
+  padding: 25px 30px 30px 30px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  width: 460px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+
+.form_block img {
+  float: left;
+  margin-right: 8px;
+}
+
+.form_block h1 {
+  display: inline-block;
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.form_block p {
+  padding: 0;
+  color: #7a7b7f;
+  margin-bottom: 32px;
+  line-height: 1.5;
+}
+.form_block p:last-child {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.form_block p a {
+  color: #ea355a;
+  text-decoration: none;
+}
+
+input[type="text"], input[type="password"] {
+  padding: 14px 0 12px 13px;
+  border-radius: 5px;
+  box-shadow: none;
+  border: none;
+  background-color: #f0f0f0;
+}
+
+.names input[type="text"] {
+  width: 190px;
+  margin-bottom: 15px;
+}
+
+.email_pass > input {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+form label:first-child input[type="text"] {
+  margin-right: 15px;
+}
+
+button {
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 15px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  background-color: #ea355a;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 0 0 rgba(189,25,98,1);
+}
